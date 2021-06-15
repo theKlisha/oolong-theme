@@ -2,10 +2,11 @@
 	"name": "Oolong",
 	"type": "dark",
 	"colors": {
-		"scrollbar.shadow": "#111",
+		"focusBorder": "#0000",
+		"foreground":"#ddd",
 		
 		"editor.background": "#2d2f32",
-		"editor.lineHighlightBackground": "#ffe79215",
+		"editor.lineHighlightBackground": "#ffe79210",
 		"editor.selectionBackground": "#ffe79235",
 		"editor.findMatchHighlightBackground": "#88102a70",
 		"editor.findMatchBackground": "#88102a",
@@ -14,45 +15,45 @@
 		"editor.hoverHighlightBackground": "#fff1",
 		
 		"sideBar.background": "#111",
-		"sideBar.foreground": "#fff7",
+		"sideBar.foreground": "#fff8",
+		"sideBarSectionHeader.foreground": "#fffa",
 		"sideBarSectionHeader.background": "#0000",
 		"sideBarTitle.foreground": "#fff5",
 		
 		"activityBar.background": "#111",
 		"activityBar.foreground": "#fff5",
+		"activityBarBadge.background": "#88102a",
+		"activityBarBadge.foreground": "#fffa",
 		
 		"tab.activeBackground": "#fff2",
 		"tab.inactiveBackground": "#2d2f32",
+		
 		"editorGroupHeader.tabsBackground": "#2d2f32",
 		"breadcrumb.background": "#fff2",
-
+		
 		"statusBar.background": "#111",
 		"statusBar.foreground": "#fff5",
+		"statusBarItem.hoverBackground": "#fff1",
+		"statusBar.debuggingBackground": "#88102a",
+		"statusBar.debuggingForeground": "#fff8",
+		
+		"notifications.background": "#111",
+		
+		"scrollbar.shadow": "#222",
+		
+		"panel.background": "#111",
+		"panel.border": "#000",
 
-		"panel.background": "#111"
+		"terminal.foreground": "#aaa"
 	},
 
 	"tokenColors": [
-		// {
-		//     "settings": {
-		//         "background": "#2a2626",
-		//         "foreground": "#e2e2e2",
-		//         "selectionForeground": "#e2e2e2",
-		//         "findHighlight": "#ffe792",
-		//         "findHighlightForeground": "#333333",
-		//         "selectionBorder": "#e2e2e2",
-		//         "bracketsForeground": "#3d8e91",
-		//         "bracketsOptions": "underline",
-		//         "bracketContentsForeground": "#f0624b",
-		//         "bracketContentsOptions": "underline",
-		//         "tagsOptions": "stippled_underline"
-		//     }
-		// },
 		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#534b4b"
+				"fontStyle": "italic",
+				"foreground": "#505050"
 			}
 		},
 		{
