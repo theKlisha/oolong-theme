@@ -15,11 +15,20 @@
 		"editor.hoverHighlightBackground": "#fff1",
 		
 		"sideBar.background": "#111",
-		"sideBar.foreground": "#fff8",
-		"sideBarSectionHeader.foreground": "#fffa",
+		"sideBar.foreground": "#fff6",
+		"sideBarSectionHeader.foreground": "#fff6",
 		"sideBarSectionHeader.background": "#0000",
 		"sideBarTitle.foreground": "#fff5",
 		
+		"gitDecoration.ignoredResourceForeground": "#fff2",
+		"gitDecoration.untrackedResourceForeground": "#1bacb1",
+		"gitDecoration.modifiedResourceForeground": "#f7a21b",
+		"gitDecoration.submoduleResourceForeground": "#a948d6",
+		"gitDecoration.renamedResourceForeground": "#fff",
+		"gitDecoration.stageModifiedResourceForeground": "#fff",
+		"gitDecoration.stageDeletedResourceForeground": "#fff",
+		"gitDecoration.addedResourceForeground": "#fff",
+
 		"activityBar.background": "#111",
 		"activityBar.foreground": "#fff5",
 		"activityBarBadge.background": "#88102a",
