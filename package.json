@@ -2,7 +2,7 @@
     "name": "oolong-theme",
     "displayName": "Oolong Theme",
     "description": "Another VS Code color theme",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "engines": {
         "vscode": "^1.57.0"
     },
